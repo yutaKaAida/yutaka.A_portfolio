@@ -1,0 +1,138 @@
+/* ----------------------------- */
+/* works-kv
+/* ---------------------------- */
+.overview-text,
+.works-info-list,
+.description-text,
+.description-list{
+  line-height: 1.8;
+}
+.page-title-wrapper.works-page{
+  padding-top: 52%;
+  height: 0;
+  background-size: cover;
+  background-position: center;
+}
+.page-title.works-page{
+  color: #333333;
+  background-color: #fff;
+  font-size: 3rem;
+  bottom: 6.7%;
+  left: 7.1%;
+  text-align: left;
+}
+.page-title_jp{
+  text-align-last: left;
+}
+
+/* kv-bg */
+.LL-bg{
+  background-image: url(../images/works_LL/LLfv.png);
+  background-position: center;
+  display: flex;
+  max-width: 100%;
+  width: 100vw;
+  padding-top: 52%;
+  vertical-align: bottom;
+  background-size: cover;
+  position: relative;
+}
+.MAKO-bg{
+  background-image: url(../images/works_MAKO/MAKOfv.png);
+}
+.tj-logo-bg{
+  background-image: url(../images/works_tj-logo/tj_fv.png);
+}
+
+/* ----------------------------- */
+/* section
+/* ---------------------------- */
+.works-section-inner{
+  max-width: 760px;
+  padding: 0 4vw;
+  margin: auto;
+}
+.works-section-title{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+.works-section-title_en{
+  font-size: 1.2rem;
+  color: #777;
+}
+.works-section-title::before{
+  content: "";
+  display: inline-block;
+  height: 20px;
+  width: 6px;
+  background-color: #82E7B7;
+  vertical-align: -3px;
+}
+
+/* ----------------------------- */
+/* overview
+/* ---------------------------- */
+.overview-text{
+  margin-bottom: 20px;
+}
+.works-info-list {
+  padding: 24px;
+  background-color: #ffffff;
+}
+.img-bg{
+  background-color: #fff;
+}
+
+/* ----------------------------- */
+/* process
+/* ---------------------------- */
+.process-img-wrapper{
+  margin-bottom: 60px;
+}
+.process-title{
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 60px 0 40px;
+}
+.process-title::after{
+  content: "";
+  display: block;
+  width: 80%;
+  height: 2px;
+  background-color: #82E7B7;
+  margin-top: 6px;
+}
+.process-subheading{
+  margin: 40px 0 -10px;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.description-img-wrapper,
+.description-text{
+  margin: 20px 0;
+}
+
+/* リンクボタン */
+.link-btn{
+  margin-top: 60px;
+  
+}
+
+.btn:hover{
+  background-color: #82E7B7;
+  border: 2px solid ##82E7B7;
+  color: #fff;
+  transition: .3s;
+}
+
+@media screen and (max-width:768px){
+  .page-title-wrapper.works-page{
+    padding-top: 50%;
+  }
+  .page-title.works-page{
+    font-size: 6vw;
+    bottom: 5%;
+    left: 5%;
+  }
+}
