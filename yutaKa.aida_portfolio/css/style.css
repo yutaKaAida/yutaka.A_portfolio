@@ -7,6 +7,7 @@
   background: -moz-linear-gradient(left, #53da8b 25%, #61e9c0 90%);
   background: -webkit-linear-gradient(left, #53da8b 25%,#61e9c0 90%); 
   background: linear-gradient(right, #53da8b 25%,#61e9c0 90%);
+  background: -ms-linear-gradient(left, #53da8b 25%, #61e9c0 90%);
   margin: 0 0 0 60%;
   width: 30%;
   height: 0;
