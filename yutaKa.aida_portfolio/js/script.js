@@ -16,3 +16,14 @@ $('.global-nav__item>a').on('click',function(){
   $('.btn-trigger').removeClass('close');
   $('body').removeClass('noscroll');
 });
+
+$(function() {
+  $('.dlbtn a').on('click', function(e){
+    var href_url = $(this).attr('href');
+    var href_name = $(this).attr('href').replace(/\\/g,'/').replace( /.*\//, '' );
+    $(e.target).attr({
+      download: href_name,
+      href: href_url
+    });
+  });
+});
