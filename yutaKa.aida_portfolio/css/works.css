@@ -9,6 +9,7 @@
 }
 .page-title-wrapper.works-page{
   padding-top: 52%;
+  margin-top: 60px;
   height: 0;
   background-size: cover;
   background-position: center;
@@ -82,7 +83,7 @@
 }
 .works-info-list {
   padding: 24px;
-  background-color: #ffffff;
+  background-color: #fefefe;
 }
 .img-bg{
   background-color: #fff;

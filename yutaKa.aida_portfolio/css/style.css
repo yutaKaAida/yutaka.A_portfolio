@@ -212,6 +212,16 @@
   margin-bottom: 60px;
 }
 
+.about_me_multi-lines{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.profile-img-wrapper-top{
+  margin-right: 10%;
+  margin-bottom: 0;
+}
 
 @media screen and (max-width:768px){
 
@@ -278,5 +288,15 @@
 
   .kv-wrapper{
     height: 66vw;
+  }
+
+  .about_me_multi-lines{
+    display: block;
+  }
+  
+  .profile-img-wrapper-top{
+    max-width: 400px;
+    width: 40%;
+    margin: 20px auto;
   }
 }
