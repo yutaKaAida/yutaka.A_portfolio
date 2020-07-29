@@ -72,7 +72,6 @@ a{
 /* その他の共通クラス */
 .text-center{
   text-align: center;
-  margin-top: 40px;
 }
 .block-center{
   margin: auto;
