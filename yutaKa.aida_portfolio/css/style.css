@@ -235,6 +235,11 @@
     border: 3px solid rgb(130, 231, 183);
   }
   
+  .works-item{
+    width: 70%;
+    transition: .3s;
+  }
+  
   .works-item a{
     padding-bottom: 40px;
   }
