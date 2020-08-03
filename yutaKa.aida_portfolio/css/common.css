@@ -72,7 +72,7 @@ a{
 /* その他の共通クラス */
 .text-center{
   text-align: center;
-  margin-top:40px;
+  /* margin-top: 40px; */
 }
 .block-center{
   margin: auto;
@@ -87,6 +87,7 @@ a{
 .flex-rc{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .multi-lines{
   line-height: 1.8;

@@ -15,13 +15,16 @@
   background-position: center;
 }
 .page-title.works-page{
-  color: #333333;
-  background-color: #fff;
+  color: #fafafa;
+  background-color: #777;
   font-size: 3rem;
   bottom: 6.7%;
   left: 7.1%;
   text-align: left;
+  padding: 1%;
+  /* border: 1px solid #333; */
 }
+
 .page-title_jp{
   text-align-last: left;
 }
@@ -47,6 +50,14 @@
 
 .gallery-bg{
   background-image: url(../images/works_gallery/amanogawa.png);
+}
+
+.TALSOL-bg{
+  background-image: url(../images/works_TALSOL/TALSOL_FV.png);
+}
+
+.Tei-bg{
+  background-image: url(../images/works_Tei/Tei_FV.png);
 }
 
 /* ----------------------------- */

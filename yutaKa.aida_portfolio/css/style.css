@@ -15,7 +15,7 @@
 }
 .kv-img{
   width: 46%;
-  margin: 6.7% 3%;
+  margin: 7% 3%;
 }
 
 
@@ -159,7 +159,7 @@
 }
 
 .global-nav__item{
-  padding: 20px 0;
+  padding: 16px 0;
   font-size: 3rem;
 }
 
@@ -195,6 +195,7 @@
 }
 .works-title{
   font-weight: bold;
+  padding-bottom: 30px;
 }
 .works-category{
   display: block;
@@ -239,7 +240,7 @@
     width: 70%;
     transition: .3s;
   }
-  
+
   .works-item a{
     padding-bottom: 40px;
   }
@@ -264,8 +265,8 @@
   }
 
   .global-nav__item{
-    padding: 20px 0;
-    font-size: 2rem;
+    padding: 16px 0;
+    font-size: 2.2rem;
   }
 
   .kv_all{
