@@ -31,7 +31,7 @@
 
 /* kv-bg */
 .LL-bg{
-  background-image: url(../images/works_LL/LLfv.png);
+  background-image: url(../images/works_LL/LL_mu_pcsp.png);
   background-position: center;
   display: flex;
   max-width: 100%;
@@ -42,7 +42,7 @@
   position: relative;
 }
 .MAKO-bg{
-  background-image: url(../images/works_MAKO/MAKOfv.png);
+  background-image: url(../images/works_MAKO/MAKO_mu_pcsp.png);
 }
 .tj-logo-bg{
   background-image: url(../images/works_tj-logo/tj_fv.png);
@@ -53,11 +53,11 @@
 }
 
 .TALSOL-bg{
-  background-image: url(../images/works_TALSOL/TALSOL_FV.png);
+  background-image: url(../images/works_TALSOL/TALSOL_mu_pcsp.png);
 }
 
 .Tei-bg{
-  background-image: url(../images/works_Tei/Tei_FV.png);
+  background-image: url(../images/works_Tei/Tei_mu_pcsp.png);
 }
 
 /* ----------------------------- */
