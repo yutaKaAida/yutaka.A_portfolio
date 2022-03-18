@@ -30,6 +30,18 @@
 }
 
 /* kv-bg */
+.HB-bg{
+  /* background-image: url(../images/works_LL/LL_mu_pcsp.png); */
+  background-position: center;
+  display: flex;
+  max-width: 100%;
+  width: 100vw;
+  padding-top: 52%;
+  vertical-align: bottom;
+  background-size: cover;
+  position: relative;
+}
+
 .LL-bg{
   background-image: url(../images/works_LL/LL_mu_pcsp.png);
   background-position: center;
