@@ -31,15 +31,16 @@
 
 /* kv-bg */
 .HB-bg{
-  /* background-image: url(../images/works_LL/LL_mu_pcsp.png); */
+  background-image: url(../images/works_HB/HB_mu_sp.png);
   background-position: center;
   display: flex;
   max-width: 100%;
-  width: 100vw;
+  width: 80vw;
   padding-top: 52%;
   vertical-align: bottom;
   background-size: cover;
   position: relative;
+  margin: 0 auto;
 }
 
 .LL-bg{
